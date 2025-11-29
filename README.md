@@ -37,6 +37,7 @@ The website includes multiple pages and interactive elements using HTML, CSS, an
 library used - Bootstrap
 ---
 
+ Deployed: https://jnapay.github.io/Prefinals_Computingv2/
 Screenshots
 
 <img width="1920" height="1200" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/c029b741-1d2c-4987-899f-1aebe1083cf2" />
