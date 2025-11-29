@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generative AI FAQ</title>
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="index.css">
+  <style>
+  
+    
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Generative Ai! ✨</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">🏠 Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            🚀 Explore AI
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="faq.html">❓ FAQs</a></li>
+            <li><a class="dropdown-item" href="ethics.html">⚖️ Ethical AI Use</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="article.html">💡 AI in Dev Work</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search your AI adventure..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">🔍 Go</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="skills-gear" class="card content-card mb-5 position-relative">
+  <div class="floating-emoji" style="top:10%; left:5%;">🎬</div>
+  <div class="floating-emoji" style="top:20%; right:10%;">📱</div>
+  <div class="floating-emoji" style="bottom:10%; left:15%;">✂️</div>
+  <div class="floating-emoji" style="bottom:20%; right:20%;">💡</div>
+  <div class="floating-emoji" style="top:50%; left:50%;">✨</div>
+
+  <div class="card-body">
+    <h1 class="card-title mb-4">🎥 Skills Over Gear: Making the Most of What You Have</h1>
+    
+    <section id="gear-vs-cost" class="animate-slideUp">
+      <h2>💰 Cost vs Gear</h2>
+      <p>A job might cost $40K, yet the gear used doesn't decide how good it turns out. Take filming with an iPhone 16 Pro Max - pair that with CapCut edits, but here’s the catch: skills matter more than specs. When folks get visuals and storytelling, results shine regardless of tech. Tools? They're just helpers. What counts is know-how, practice, plus a feel for how movies speak to people.</p>
+    </section>
+
+    <br><br>
+
+    <section id="editor-skill" class="animate-slideUp delay-1">
+      <h2>✂️ Editor & Filmmaker Skills</h2>
+      <p>A good editor or filmmaker shapes how a scene feels - through setup, rhythm, tone, also speed - to create stories that hit hard emotionally, no matter if they shoot on pro gear or just a phone. Past projects, showreels, clips give real clues about whether they can actually bring ideas to life in ways people remember. Bottom line: what they cost makes sense only when it lines up with proven talent, storytelling muscle, plus solid results every single time.</p>
+    </section>
+
+    <br><br>
+
+    <section id="experience" class="animate-slideUp delay-2">
+      <h2>🎯 Creating Memorable Experiences</h2>
+      <p>It's really about turning thoughts into experiences that stick. Just like coders or creators making smart, smooth apps without fancy gear. Winning isn’t down to pricey gadgets - but staying sharp, learning, adapting. What makes them different? The mood they craft, small touches others miss, a natural feel for shaping stories or layouts.</p>
+    </section>
+
+    <br><br>
+
+    <section id="skills-matter" class="animate-slideUp delay-3">
+      <h2>🏆 Skills Matter More Than Gear</h2>
+      <p>Bottom line? Skills matter more than gear. Vision and follow-through come first. Cost means nothing unless the makers prove they can craft stuff that’s tight, smooth, fun to engage with - stuff showing how well they turn concepts into real things that hit hard.</p>
+    </section>
+  </div>
+</div>
+
+
+<footer class="footer py-4 mt-5 text-center">
+  &copy; 2025 Generative AI Guide
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const sections = document.querySelectorAll('.animate-slideUp');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  sections.forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>
